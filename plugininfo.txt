@@ -120,20 +120,10 @@
 </generalfunction>
 
 <generalfunction>
-<label>Draw Treasure</label><kind>TRANSFERCARD</kind>
-<includeasbutton>yes</includeasbutton>
-<sourceowner>shared</sourceowner>
-<sourcegamezone>Treasure</sourcegamezone><sourceposition>top</sourceposition>
-<destinationowner>performer</destinationowner>
-<destinationgamezone>Hand</destinationgamezone>
-<destinationposition>top</destinationposition>
-</generalfunction>
-
-<generalfunction>
 <label>Draw Treasure (table)</label><kind>TRANSFERCARD</kind>
 <includeasbutton>yes</includeasbutton>
 <sourceowner>shared</sourceowner>
-<sourcegamezone>Treasures</sourcegamezone><sourceposition>top</sourceposition>
+<sourcegamezone>Treasure</sourcegamezone><sourceposition>top</sourceposition>
 <destinationowner>table</destinationowner>
 <destinationposition>faceup</destinationposition>
 </generalfunction>
@@ -142,7 +132,7 @@
 <label>Draw Treasure(hand)</label><kind>TRANSFERCARD</kind>
 <includeasbutton>yes</includeasbutton>
 <sourceowner>shared</sourceowner>
-<sourcegamezone>Treasures</sourcegamezone><sourceposition>top</sourceposition>
+<sourcegamezone>Treasure</sourcegamezone><sourceposition>top</sourceposition>
 <destinationowner>performer</destinationowner>
 <destinationgamezone>Hand</destinationgamezone>
 <destinationposition>top</destinationposition>
