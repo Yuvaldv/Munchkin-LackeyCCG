@@ -1,0 +1,199 @@
+<plugin>
+<playerstat><label>Level</label><initialvalue>1</initialvalue></playerstat>
+<playerstat><label>Combat Strength</label><initialvalue>1</initialvalue></playerstat>
+
+<deckzone>
+     <label>Doors</label>
+     <gamezonetoloadto>Doors</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Treasure</label>
+     <gamezonetoloadto>Treasure</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Dungeons</label>
+     <gamezonetoloadto>Dungeons</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Fairy Dust</label>
+     <gamezonetoloadto>Fairy Dust</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Spells</label>
+     <gamezonetoloadto>Spells</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<deckzone>
+     <label>Other special</label>
+     <gamezonetoloadto>Hand</gamezonetoloadto>
+     <shuffle>no</shuffle>
+</deckzone>
+
+<gamezone>
+     <label>Hand</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+</gamezone>
+
+<gamezone>
+     <label>Doors</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Doors discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Treasure</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Treasure discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Specials discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Dungeons</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Fairy Dust</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+<gamezone>
+     <label>Spells</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+	 <isshared>yes</isshared>
+</gamezone>
+
+<phase><label>Knock Down the Door</label></phase>
+<phase><label>Look for Trouble</label></phase>
+<phase><label>Loot the Room</label></phase>
+<phase><label>Charity</label></phase>
+
+<generalfunction><label>Roll</label><kind>ROLLD6</kind><includeasbutton>yes</includeasbutton></generalfunction>
+
+<generalfunction>
+<label>Break Down the Door</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Doors</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>table</destinationowner>
+<destinationposition>faceup</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Loot the Room (Draw Door)</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Doors</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>performer</destinationowner>
+<destinationgamezone>Hand</destinationgamezone>
+<destinationposition>top</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Treasure</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Treasure</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>performer</destinationowner>
+<destinationgamezone>Hand</destinationgamezone>
+<destinationposition>top</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Treasure (table)</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Treasures</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>table</destinationowner>
+<destinationposition>faceup</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Treasure(hand)</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Treasures</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>performer</destinationowner>
+<destinationgamezone>Hand</destinationgamezone>
+<destinationposition>top</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Dungeon</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Dungeons</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>table</destinationowner>
+<destinationposition>facedown</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Fairy Dust</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Fairy Dust</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>performer</destinationowner>
+<destinationgamezone>Hand</destinationgamezone>
+<destinationposition>top</destinationposition>
+</generalfunction>
+
+<generalfunction>
+<label>Draw Spell</label><kind>TRANSFERCARD</kind>
+<includeasbutton>yes</includeasbutton>
+<sourceowner>shared</sourceowner>
+<sourcegamezone>Spells</sourcegamezone><sourceposition>top</sourceposition>
+<destinationowner>performer</destinationowner>
+<destinationgamezone>Hand</destinationgamezone>
+<destinationposition>top</destinationposition>
+</generalfunction>
+
+<cardfunction><label>Rotate</label><kind>MAKERIGHT90DEGREES</kind></cardfunction>
+<cardfunction><label>Unrotate</label><kind>MAKERIGHT0DEGREES</kind></cardfunction>
+<cardfunction><label>Turn Over</label><kind>TURNOVER</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Take Control</label><kind>CHANGEOWNER</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction><label>Edit Note</label><kind>EDITNOTE</kind><includeasbutton>yes</includeasbutton><PositionX>.4</PositionX>
+<cardfunction><label>Clear</label><kind>CLEARCARD</kind><includeasbutton>yes</includeasbutton></cardfunction>
+<cardfunction>
+<label>Add counter</label><kind>ADDCOUNTER</kind><color>blue</color>
+<textoverimagecolor>00FF00</textoverimagecolor>
+<PositionX>.75</PositionX><PositionY>.04</PositionY>
+<includeasbutton>yes</includeasbutton>
+</cardfunction>
+<cardfunction><label>Remove counter</label><kind>REMOVECOUNTER</kind><color>blue</color><includeasbutton>yes</includeasbutton></cardfunction>
+
+<definition><kind>REUSECARDIMAGES</kind></definition>
+<definition><kind>ISALLOWINGMULTIPLECARDBACKS</kind></definition>
+<definition><kind>ISYOURFACEDOWNVISIBLE</kind></definition>
+<definition><kind>MULTIPLECARDBACKSNAMESVISIBLETO</kind><value>owner</value></definition>
+
+</plugin>

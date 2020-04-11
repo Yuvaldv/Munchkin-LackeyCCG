@@ -1,0 +1,630 @@
+<packdefinitions version="1.0">
+
+<pack>
+<packtitle>Bites Doors</packtitle>
+<packimage>bites</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Bites</data></packcommoncrit>
+<chance>
+<kind><qty>106</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Bites Treasures</packtitle>
+<packimage>bites</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Bites</data></packcommoncrit>
+<chance>
+<kind><qty>62</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Bites 2: Pants Macabre Doors</packtitle>
+<packimage>bites2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Bites 2: Pants Macabre</data></packcommoncrit>
+<chance>
+<kind><qty>73</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Bites 2: Pants Macabre Treasures</packtitle>
+<packimage>bites2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Bites 2: Pants Macabre</data></packcommoncrit>
+<chance>
+<kind><qty>37</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Blender Doors</packtitle>
+<packimage>blender</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin Blender</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Blender Treasures</packtitle>
+<packimage>blender</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin Blender</data></packcommoncrit>
+<chance>
+<kind><qty>42</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty Doors</packtitle>
+<packimage>booty</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty</data></packcommoncrit>
+<chance>
+<kind><qty>100</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty Treasures</packtitle>
+<packimage>booty</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty</data></packcommoncrit>
+<chance>
+<kind><qty>68</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty 2: Jump the Shark Doors</packtitle>
+<packimage>booty2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty 2: Jump the Shark</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty 2: Jump the Shark Treasures</packtitle>
+<packimage>booty2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty 2: Jump the Shark</data></packcommoncrit>
+<chance>
+<kind><qty>42</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty - Fish & Ships Doors</packtitle>
+<packimage>bootyfs</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty - Fish & Ships</data></packcommoncrit>
+<chance>
+<kind><qty>13</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Booty - Fish & Ships Treasures</packtitle>
+<packimage>bootyfs</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Booty - Fish & Ships</data></packcommoncrit>
+<chance>
+<kind><qty>2</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu Doors</packtitle>
+<packimage>cthulhu</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu</data></packcommoncrit>
+<chance>
+<kind><qty>100</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu Treasures</packtitle>
+<packimage>cthulhu</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu</data></packcommoncrit>
+<chance>
+<kind><qty>68</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 2 Doors</packtitle>
+<packimage>cthulhu2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 2</data></packcommoncrit>
+<chance>
+<kind><qty>32</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 2 Treasures</packtitle>
+<packimage>cthulhu2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 2</data></packcommoncrit>
+<chance>
+<kind><qty>24</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 3 Doors</packtitle>
+<packimage>cthulhu3</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 3</data></packcommoncrit>
+<chance>
+<kind><qty>34</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 3 Treasures</packtitle>
+<packimage>cthulhu3</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 3</data></packcommoncrit>
+<chance>
+<kind><qty>22</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 4 Doors</packtitle>
+<packimage>cthulhu4</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 4</data></packcommoncrit>
+<chance>
+<kind><qty>16</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Cthulhu 4 Dungeons</packtitle>
+<packimage>cthulhu4</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Cthulhu 4</data></packcommoncrit>
+<chance>
+<kind><qty>20</qty><crit><field>Type</field><eval>IS</eval><data>Dungeon</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Fairy Dust</packtitle>
+<packimage>fairydust</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Fairy Dust</data></packcommoncrit>
+<chance>
+<kind><qty>15</qty><crit><field>Type</field><eval>IS</eval><data>Fairy Dust</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Fu Doors</packtitle>
+<packimage>fu</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Fu</data></packcommoncrit>
+<chance>
+<kind><qty>98</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Fu Treasures</packtitle>
+<packimage>fu</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Fu</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Fu 2: Monky Business Doors</packtitle>
+<packimage>fu2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Fu 2: Monkey Business</data></packcommoncrit>
+<chance>
+<kind><qty>71</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Fu 2: Monky Business Treasures</packtitle>
+<packimage>fu2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Fu 2: Monkey Business</data></packcommoncrit>
+<chance>
+<kind><qty>39</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Impossible Doors</packtitle>
+<packimage>impossible</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Impossible</data></packcommoncrit>
+<chance>
+<kind><qty>100</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Impossible Treasures</packtitle>
+<packimage>impossible</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Impossible</data></packcommoncrit>
+<chance>
+<kind><qty>68</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin Doors</packtitle>
+<packimage>munchkin</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin</data></packcommoncrit>
+<chance>
+<kind><qty>95</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin Treasures</packtitle>
+<packimage>munchkin</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin</data></packcommoncrit>
+<chance>
+<kind><qty>73</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 2: Unnatural Axe Doors</packtitle>
+<packimage>m2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 2: Unnatural Axe</data></packcommoncrit>
+<chance>
+<kind><qty>64</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 2: Unnatural Axe Treasures</packtitle>
+<packimage>m2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 2: Unnatural Axe</data></packcommoncrit>
+<chance>
+<kind><qty>44</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 3: Clerical Errors Doors</packtitle>
+<packimage>m3</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 3: Clerical Errors</data></packcommoncrit>
+<chance>
+<kind><qty>66</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 3: Clerical Errors Treasures</packtitle>
+<packimage>m3</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 3: Clerical Errors</data></packcommoncrit>
+<chance>
+<kind><qty>46</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 6: Demented Dungeons Doors</packtitle>
+<packimage>m6</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 6: Demented Dungeons</data></packcommoncrit>
+<chance>
+<kind><qty>16</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 6: Demented Dungeons Dungeons</packtitle>
+<packimage>m6</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 6: Demented Dungeons</data></packcommoncrit>
+<chance>
+<kind><qty>20</qty><crit><field>Type</field><eval>IS</eval><data>Dungeon</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 7: Cheat with Both Hands Doors</packtitle>
+<packimage>m7</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 7: Cheat with Both Hands</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin 7: Cheat with Both Hands Treasures</packtitle>
+<packimage>m7</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin 7: Cheat with Both Hands</data></packcommoncrit>
+<chance>
+<kind><qty>42</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin: Marked for Death Doors</packtitle>
+<packimage>mfd</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Marked for Death</data></packcommoncrit>
+<chance>
+<kind><qty>11</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin: Marked for Death Treasures</packtitle>
+<packimage>mfd</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Marked for Death</data></packcommoncrit>
+<chance>
+<kind><qty>8</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin: Monster Enhancers Doors</packtitle>
+<packimage>munchkinme</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Monster Enhancers</data></packcommoncrit>
+<chance>
+<kind><qty>15</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin: Reloaded Doors</packtitle>
+<packimage>reloaded</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Reloaded</data></packcommoncrit>
+<chance>
+<kind><qty>10</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkin: Reloaded Treasures</packtitle>
+<packimage>reloaded</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Reloaded</data></packcommoncrit>
+<chance>
+<kind><qty>5</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Munchkinomicon</packtitle>
+<packimage>munchkinomicon</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkinomicon</data></packcommoncrit>
+<chance>
+<kind><qty>15</qty><crit><field>Type</field><eval>IS</eval><data>Spells</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin Doors</packtitle>
+<packimage>star</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star</data></packcommoncrit>
+<chance>
+<kind><qty>94</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin Treasures</packtitle>
+<packimage>star</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star</data></packcommoncrit>
+<chance>
+<kind><qty>74</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin 2: The Clown Wars Doors</packtitle>
+<packimage>star2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star 2: The Clown Wars</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin 2: The Clown Wars Treasures</packtitle>
+<packimage>star2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star 2: The Clown Wars</data></packcommoncrit>
+<chance>
+<kind><qty>38</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin: Space Ships Doors</packtitle>
+<packimage>starss</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star - Space Ships</data></packcommoncrit>
+<chance>
+<kind><qty>12</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Star Munchkin: Space Ships Treasures</packtitle>
+<packimage>starss</packimage>
+<packformat>Standard</packformat>
+<packkind>Booster</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Star - Space Ships</data></packcommoncrit>
+<chance>
+<kind><qty>3</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Super Munchkin Doors</packtitle>
+<packimage>super</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Super Munchkin</data></packcommoncrit>
+<chance>
+<kind><qty>106</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Super Munchkin Treasures</packtitle>
+<packimage>super</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Super Munchkin</data></packcommoncrit>
+<chance>
+<kind><qty>62</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Super Munchkin 2: Narrow S Cape Doors</packtitle>
+<packimage>super2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Super Munchkin 2: Narrow S Cape</data></packcommoncrit>
+<chance>
+<kind><qty>65</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Super Munchkin 2: Narrow S Cape Treasures</packtitle>
+<packimage>super2</packimage>
+<packformat>Standard</packformat>
+<packkind>Exp</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Super Munchkin 2: Narrow S Cape</data></packcommoncrit>
+<chance>
+<kind><qty>45</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>The Good, The Bad... Doors</packtitle>
+<packimage>gbm</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>GBM</data></packcommoncrit>
+<chance>
+<kind><qty>98</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>The Good, The Bad... Treasures</packtitle>
+<packimage>gbm</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>GBM</data></packcommoncrit>
+<chance>
+<kind><qty>70</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Zombies Doors</packtitle>
+<packimage>zombies</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Zombies</data></packcommoncrit>
+<chance>
+<kind><qty>94</qty><crit><field>Type</field><eval>IS</eval><data>Door</data></crit></kind>
+</chance>
+</pack>
+
+<pack>
+<packtitle>Zombies Treasures</packtitle>
+<packimage>zombies</packimage>
+<packformat>Standard</packformat>
+<packkind>Core</packkind>
+<packcommoncrit><field>Set</field><eval>IS</eval><data>Munchkin: Zombies</data></packcommoncrit>
+<chance>
+<kind><qty>74</qty><crit><field>Type</field><eval>IS</eval><data>Treasure</data></crit></kind>
+</chance>
+</pack>
+
+</packdefinitions>
